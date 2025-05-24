@@ -59,33 +59,34 @@
 
 ./gradlew clean Test -DdeviceHost=browserstack
 
-## <img width="4%" style="vertical-align:middle" title="Jenkins" src="/media/Jenkins.svg"> Сборка в Jenkins
+## <img width="4%" style="vertical-align:middle" title="Jenkins" src="src/media/Jenkins.svg"> Сборка в Jenkins
 
-Для запуска сборки необходимо перейти в раздел <code>Собрать с параметрами</code> и нажать кнопку <code>Собрать</code>.
+Для запуска сборки необходимо нажать кнопку <code>Build Now</code>.
 <p align="center">
-<img title="Jenkins Build" src="src/media/JenkinsScreen.png">
+<img title="Jenkins Build" src="src/media/jenkinsbuildnow.png">
 </p>
 После выполнения сборки, в блоке <code>История сборок</code> напротив номера сборки появятся значки <code>Allure Report</code> и <code>Allure TestOps</code>, при клике на которые откроется страница с сформированным html-отчетом и тестовой документацией соответственно.
 
-## <img width="4%" style="vertical-align:middle" title="Allure Report" src="media/Allure_Report.svg"> Пример Allure-отчета
+## <img width="4%" style="vertical-align:middle" title="Allure Report" src="src/media/Allure_Report.svg"> Пример Allure-отчета
 ### Overview
 
 <p align="center">
-<img title="Allure Overview" src="src/media/AllurereportScreen.png">
+<img title="Allure Overview" src="src/media/alreportscreen.png">
 </p>
 
-## <img width="4%" style="vertical-align:middle" title="Allure TestOps" src="media/AllureTestOps.svg"> Интеграция с Allure TestOps
+## <img width="4%" style="vertical-align:middle" title="Allure TestOps" src="src/media/AllureTestOps.svg"> Интеграция с Allure TestOps
 
 На *Dashboard* в <code>Allure TestOps</code> видна статистика количества тестов: сколько из них добавлены и проходятся вручную, сколько автоматизированы. Новые тесты, а так же результаты прогона приходят по интеграции при каждом запуске сборки.
 
 <p align="center">
-<img title="Allure TestOps DashBoard" src="src/media/allureOPScren.png">
+<img title="Allure TestOps DashBoard" src="src/media/testops.png">
 </p>
 
 ### Результат выполнения автотеста
 
 <p align="center">
-<img title="Test Results in Alure TestOps" src="src/media/resultScreen.png">
+<img title="Test Results in Alure TestOps" src="src/media/res1.png">
+<img title="Test Results in Alure TestOps" src="src/media/res2.png">
 </p>
 
 ## <img width="4%" style="vertical-align:middle" title="Jira" src="media/Jira.svg"> Интеграция с Jira
@@ -93,7 +94,7 @@
 Реализована интеграция <code>Allure TestOps</code> с <code>Jira</code>, в тикете отображается, какие тест-кейсы были написаны в рамках задачи и результат их прогона.
 
 <p align="center">
-<img title="Jira Task" src="src/media/jiraScreen.png">
+<img title="Test Results in Jira" src="src/media/jrares.png">
 </p>
 
 ### <img width="4%" style="vertical-align:middle" title="Telegram" src="media/Telegram.svg"> Уведомления в Telegram с использованием бота
@@ -101,12 +102,10 @@
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
 
 <p align="center">
-<img width="70%" title="Telegram Notifications" src="src/media/telegramscreen.png">
+<img width="70%" title="Telegram Notifications" src="src/media/telegramres.png">
 </p>
 
-### <img width="4%" style="vertical-align:middle" title="Selenoid" src="media/Selenoid.svg"> Видео примера запуска тестов в Selenoid
-
-В отчетах Allure для каждого теста прикреплен не только скриншот, но и видео прохождения теста
+## <img alt="Browserstack" height="25" src="src/media/images.jpeg" width="25"/></a> Видеопример выполнения теста Browserstack
 <p align="center">
-  <img title="Selenoid Video" src="src/media/v.gif">
+<img title="Browserstack Video" src="media/screenshots/browserstack.gif" width="350" height="350"  alt="video">   
 </p>
