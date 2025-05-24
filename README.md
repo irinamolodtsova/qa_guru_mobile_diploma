@@ -1,6 +1,6 @@
 # Проект по автоматизации тестовых сценариев для мобильного приложения <a href="https://wiki.com/ "> Wiki</a></h1>
 
-<img alt="GIPHY" src="/src/media/wikipedia-logo-png-design-116622424587armsjuuwz.png">
+<img alt="GIPHY" src="/src/media/imageswik.png">
 
 ##  Содержание:
 
