@@ -1,6 +1,6 @@
 # Проект по автоматизации тестовых сценариев для мобильного приложения <a href="https://wiki.com/ "> Wiki</a></h1>
 
-<img alt="GIPHY" src="/src/media/Wikipedia-logo-v2.svg.png">
+<img alt="GIPHY" src="/src/media/wikipedia-logo-png-design-116622424587armsjuuwz.png">
 
 ##  Содержание:
 
@@ -11,7 +11,7 @@
 - [Интеграция с Allure TestOps](#-интеграция-с-allure-testOps)
 - [Интеграция с Jira](#-интеграция-с-jira)
 - [Уведомления в Telegram](#-уведомления-в-telegram-с-использованием-бота)
-- [Видео примера запуска тестов в Selenoid](#-видео-примера-запуска-тестов-в-selenoid)
+- [Видео примера запуска тестов в BrowserStack](#-видео-примера-запуска-тестов-в-selenoid)
 
 ##  Используемый стек
 
