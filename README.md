@@ -1,4 +1,4 @@
-# Проект по автоматизации тестовых сценариев для мобильного приложения <a href="https://wiki.com/ "> Wiki</a></h1>
+# Проект по автоматизации тестовых сценариев для мобильного приложения <a href="https://www.wikipedia.org/ "> Wiki</a></h1>
 
 <img alt="GIPHY" src="/src/media/imageswik.png">
 
