@@ -89,7 +89,7 @@
 <img title="Test Results in Alure TestOps" src="src/media/res2.png">
 </p>
 
-## <img width="4%" style="vertical-align:middle" title="Jira" src="media/Jira.svg"> Интеграция с Jira
+## <img width="4%" style="vertical-align:middle" title="Jira" src="src/media/Jira.svg"> Интеграция с Jira
 
 Реализована интеграция <code>Allure TestOps</code> с <code>Jira</code>, в тикете отображается, какие тест-кейсы были написаны в рамках задачи и результат их прогона.
 
@@ -97,7 +97,7 @@
 <img title="Test Results in Jira" src="src/media/jrares.png">
 </p>
 
-### <img width="4%" style="vertical-align:middle" title="Telegram" src="media/Telegram.svg"> Уведомления в Telegram с использованием бота
+### <img width="4%" style="vertical-align:middle" title="Telegram" src="src/media/Telegram.svg"> Уведомления в Telegram с использованием бота
 
 После завершения сборки специальный бот, созданный в <code>Telegram</code>, автоматически обрабатывает и отправляет сообщение с отчетом о прогоне тестов.
 
