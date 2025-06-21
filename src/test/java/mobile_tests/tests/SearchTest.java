@@ -1,6 +1,6 @@
 package mobile_tests.tests;
 
-import mobile_tests.pages.WikiSearchPage;
+import mobile_tests.screen.WikiSearchPage;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 

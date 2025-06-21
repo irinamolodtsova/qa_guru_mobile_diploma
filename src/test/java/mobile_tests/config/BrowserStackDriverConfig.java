@@ -10,6 +10,12 @@ import org.aeonbits.owner.Config;
 
 public interface BrowserStackDriverConfig extends Config {
 
+    @Key("userName")
+    String getUserName();
+
+    @Key("userKey")
+    String getUserKey();
+
     @Key("app")
     String getApp();
 

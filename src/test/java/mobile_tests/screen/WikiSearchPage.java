@@ -1,4 +1,4 @@
-package mobile_tests.pages;
+package mobile_tests.screen;
 
 import io.qameta.allure.Step;
 
